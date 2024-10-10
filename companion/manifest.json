@@ -1,16 +1,15 @@
 {
-	"id": "your-module-name",
-	"name": "your-module-name",
-	"shortname": "module-shortname",
-	"description": "A short one line description of your module",
-	"version": "0.0.0",
+	"id": "HDP_MXB44VW",
+	"name": "HDP_MXB44VW-hdmi-matrix",
+	"shortname": "HDP_MXB44VW-hdmi-matrix",
+	"description": "Control HDP_MXB44VW 4x4 matrix",
+	"version": "1.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-your-module-name.git",
-	"bugs": "https://github.com/bitfocus/companion-module-your-module-name/issues",
+	"repository": "git+https://github.com/bitfocus/companion-module-hdp_mxb44vw.git",
+	"bugs": "https://github.com/ukiews/companion-module-hdp_mxb44vw",
 	"maintainers": [
 		{
-			"name": "Your name",
-			"email": "Your email"
+			"name": "Ukie"
 		}
 	],
 	"runtime": {
@@ -19,8 +18,7 @@
 		"apiVersion": "0.0.0",
 		"entrypoint": "../main.js"
 	},
-	"legacyIds": [],
-	"manufacturer": "Your company",
-	"products": ["Your product"],
+	"manufacturer": "Ukie",
+	"products": ["HDP_MXB44VW"],
 	"keywords": []
 }
