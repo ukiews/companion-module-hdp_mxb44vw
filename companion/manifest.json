@@ -1,7 +1,7 @@
 {
 	"id": "HDP_MXB44VW",
 	"name": "HDP_MXB44VW-hdmi-matrix",
-	"shortname": "HDP_MXB44VW-hdmi-matrix",
+	"shortname": "4x4 hdmi matrix",
 	"description": "Control HDP_MXB44VW 4x4 matrix",
 	"version": "1.0.0",
 	"license": "MIT",
@@ -13,12 +13,12 @@
 		}
 	],
 	"runtime": {
-		"type": "node22",
+		"type": "node18",
 		"api": "nodejs-ipc",
-		"apiVersion": "0.0.0",
-		"entrypoint": "../main.js"
+		"apiVersion": "1.10.0",
+		"entrypoint": "../index.js"
 	},
 	"manufacturer": "Ukie",
 	"products": ["HDP_MXB44VW"],
-	"keywords": []
+	"keywords": [HDMI Matrix]
 }
